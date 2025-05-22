@@ -3,17 +3,24 @@
 ## 🚀 Quick Start
 
 1. **Clone the repository**
+   ```bash
+   git clone https://github.com/preranajangid/MajorProject.git
+   cd MajorProject
+   ```
+
 2. **Install backend dependencies**
    ```bash
    python -m venv venv
    venv\Scripts\activate  # On Windows
    pip install -r requirements.txt
    ```
+
 3. **Install frontend dependencies**
    ```bash
    cd frontend
    npm install
    ```
+
 4. **Run the entire app** (from the project root):
    ```bash
    .\run_all.bat
