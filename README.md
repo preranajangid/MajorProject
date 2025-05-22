@@ -105,4 +105,37 @@ preranaProject/
 
 ---
 
+## 🔄 Updates After Cloning
+After cloning the repository to another system, you may need to make the following updates:
+
+1. **Environment Setup:**
+   - Ensure Python and Node.js are installed on the new system.
+   - Create a new virtual environment and install backend dependencies:
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate  # On Windows
+     pip install -r requirements.txt
+     ```
+   - Install frontend dependencies:
+     ```bash
+     cd frontend
+     npm install
+     ```
+
+2. **Configuration:**
+   - Check and update any environment variables or configuration files if needed.
+   - Ensure the database path is correct for the new system.
+
+3. **Run the Application:**
+   - Use the provided batch file to start the application:
+     ```bash
+     .\run_all.bat
+     ```
+
+4. **Testing:**
+   - Verify that the application runs correctly on the new system.
+   - Test the pest prediction functionality to ensure everything is working as expected.
+
+---
+
 Enjoy predicting pests with style! 🌈 
