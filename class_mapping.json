@@ -1,0 +1,15 @@
+{
+    "ants": 0,
+    "bees": 1,
+    "beetle": 2,
+    "catterpillar": 3,
+    "earthworms": 4,
+    "earwig": 5,
+    "grasshopper": 6,
+    "moth": 7,
+    "non_pest": 8,
+    "slug": 9,
+    "snail": 10,
+    "wasp": 11,
+    "weevil": 12
+}
